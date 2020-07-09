@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+    <pattern>WEB DEVELOPER</pattern>
+    <template>
+        <u>WEB DEVELOPER:</u>
+        
+        <br/>
+        <b>Average Salary (US):</b> $73,760 per year
+        <b>Projected Growth (2018-2028):</b> 13% (Much faster than average)<br/>
+        <br/>
+        
+        <b>Summary:</b>
+        Web developers design and create websites. (BLS)
+        <br/><br/>
+        
+        <b>More Information:</b>
+        <link>
+        <text>Wiki</text>
+        <url>https://en.wikipedia.org/wiki/Web_development</url>
+        </link>
+        <link>
+        <text>US Bureau of Labor Statistics</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+        </link> 
+        <br/>
+        <srai>OPTIONS</srai>
+    </template>
+</category>
+</aiml>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>COMPUTER NETWORK ARCHITECT</pattern>
+    <template>
+        <u>COMPUTER NETWORK ARCHITECT:</u>
+        
+        <br/><br/>
+        <b>Average Salary (US):</b> $112,690 per year
+        <b>Projected Growth (2018-2028):</b> 5% (As fast as average)<br/>
+        <br/>
+        
+        <b>Summary:</b>
+        Computer network architects design and build data communication 
+        networks, including local area networks (LANs), wide area networks 
+        (WANs), and Intranets. (BLS)
+        <br/><br/>
+        
+        <b>More Information:</b>
+        <link>
+        <text>Wiki</text>
+        <url>https://en.wikipedia.org/wiki/Network_architecture</url>
+        </link>
+        <link>
+        <text>US Bureau of Labor Statistics</text>
+        <url>https://www.bls.gov/OOH/computer-and-information-technology/computer-network-architects.htm</url>
+        </link> 
+        <br/>
+        <srai>OPTIONS</srai>
+    </template>
+</category>
+	<!-- insert your AIML categories here -->
+</aiml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+    <pattern>INFORMATION SECURITY ANALYST</pattern>
+    <template>
+        <u>INFORMATION SECURITY ANALYST:</u>
+        
+        <br/>
+        <b>Average Salary (US):</b> $99,730 per year
+        <b>Projected Growth (2018-2028):</b> 32% (Much faster than average)<br/>
+        <br/>
+        
+        <b>Summary:</b>
+        A software developer, sometimes called a computer programmer, a 
+        programmer or more recently a coder (especially in more informal 
+        contexts), is a person who creates computer software. The term 
+        computer programmer can refer to a specialist in one area of computers, 
+        or to a generalist who writes code for many kinds of software.(Wikipedia)
+        <br/><br/>
+        
+        <b>More Information:</b>
+        <link>
+        <text>Wiki</text>
+        <url>https://en.wikipedia.org/wiki/Information_security</url>
+        </link>
+        <link>
+        <text>US Bureau of Labor Statistics</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+        </link>           
+        <br/>
+        <srai>OPTIONS</srai>
+    </template>
+</category>
+</aiml>

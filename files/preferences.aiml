@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>PREFERENCES</pattern>
+    <template><br/>What are you interested in, <get name="name"></get>?
+    <button>
+        <text>Design</text>
+        <postback>DESIGN</postback>
+    </button>
+    <button>
+        <text>Programming</text>
+        <postback>PROGRAMMING</postback>
+    </button>
+    <button>
+        <text>Networks</text>
+        <postback>NETWORKS</postback>
+    </button>
+    <button>
+        <text>Systems</text>
+        <postback>SYSTEMS</postback>
+    </button>
+    <button>
+        <text>Databases</text>
+        <postback>DATABASES</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>DESIGN</pattern>
+    <template>Careers that include design are listed below. Select one to learn more.
+            <button>
+                <text>Software Developer</text>
+                <postback>SOFTWARE DEVELOPER</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>WEB DEVELOPER</postback>
+            </button>
+            <button>
+                <text>More Options</text>
+                <postback>OPTIONS</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>PROGRAMMING</pattern>
+    <template>
+        Programming is inlcuded in the career paths below. Select one to learn more.
+            <button>
+                <text>Software Developer</text>
+                <postback>SOFTWARE DEVELOPER</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>WEB DEVELOPER</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>DATABSE ADMINISTRATOR</postback>
+            </button>
+            <button>
+                <text>More Options</text>
+                <postback>OPTIONS</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>NETWORKS</pattern>
+    <template>
+        Networks are included in the career paths below. Select one to learn more.
+    <button>
+                    <text>Network Administrator</text>
+                    <postback>NETWORK ADMINISTRATOR</postback>
+                </button>
+                <button>
+                    <text>Information Security Analyst</text>
+                    <postback>INFORMATION SECURITY ANALYST</postback>
+                </button>
+                <button>
+                <text>More Options</text>
+                <postback>OPTIONS</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>SECURITY</pattern>
+    <template>
+        Security is included in the career paths below. Select one to learn more.
+        <button>
+                <text>Information Security Analyst</text>
+                <postback>INFORMATION SECURITY ANALYST</postback>
+            </button>
+            <button>
+                <text>Software Developer</text>
+                <postback>SOFTWARE DEVELOPER</postback>
+            </button>
+            <button>
+                <text>More Options</text>
+                <postback>OPTIONS</postback>
+            </button>
+    </template>
+</category>
+<category>
+    <pattern>DATABASES</pattern>
+    <template>
+        Databases are a part of the career paths below. Select one to learn more.
+        <button>
+                    <text>Database Administrator</text>
+                    <postback>DATABASE ADMINISTRATOR</postback>
+                </button>
+                <button>
+                    <text>Software Developer</text>
+                    <postback>SOFTWARE DEVELOPER</postback>
+                </button>
+                <button>
+                    <text>Web Developer</text>
+                    <postback>WEB DEVELOPER</postback>
+                </button>
+                <button>
+                <text>More Options</text>
+                <postback>OPTIONS</postback>
+            </button>
+    </template>
+</category>
+</aiml>

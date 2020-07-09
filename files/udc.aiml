@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Welcome to CS Career Bot! Please say "begin" to get started.</template>
+  </category>
+
+  <category>
+    <pattern>QUIT</pattern>
+    <template>Thank you <get name="name"></get> for using CS Career Bot! If you would like to start over please say "begin".</template>
+</category>
+
+  <category>
+        <pattern>BEGIN</pattern>
+        <template> Let me introduce myself. I am CS Career Bot. I help you uncover what career path 
+        would be a good fit for you after you graduate. Would you like to get 
+        started?
+            <reply><text>Let's do this</text><postback>WHAT IS YOUR NAME</postback></reply>
+            <reply><text>Maybe later</text><postback>QUIT</postback></reply>
+        </template>
+</category>
+ 
+<category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>
+        I would like to get to know you better. What is your name? Please reply with "My name is __"
+    </template>
+</category>
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>
+    <think><set name="name"><star/></set></think>
+    Nice to meet you, <star/>.<br/>
+    I would love to help you explore some career paths based on your interests.
+    <srai>PREFERENCES</srai>
+</template>
+</category>
+
+-->
+<category>
+    <pattern>COMPARE ALL</pattern>
+    <template>
+        <srai>SOFTWARE DEVELOPER</srai>
+        <srai>WEB DEVELOPER</srai>
+        <srai>INFORMATION SECURITY ANALYST</srai>
+        <srai>DATABASE ADMINISTRATOR</srai>
+        <srai>COMPUTER NETWORK ARCHITECT</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>CHOOSE ONE PATH</pattern>
+    <template>
+        <button>
+            <text>Software Developer</text>
+            <postback>SOFTWARE DEVELOPER</postback>
+        </button>
+        <button>
+            <text>Information Security Analyst</text>
+            <postback>INFORMATION SECURITY ANALYST</postback>
+        </button>
+        <button>
+            <text>Database Administrator</text>
+            <postback>DATABSE ADMINISTRATOR</postback>
+        </button>
+        <button>
+            <text>Computer Systems Analyst</text>
+            <postback>COMPUTER SYSTEMS ANALYST</postback>
+        </button>
+        <button>
+            <text>Computer Network Architect</text>
+            <postback>COMPUTER NETWORK ARCHITECT</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>OPTIONS</pattern>
+    <template>
+            <button><text>List all paths</text><postback>COMPARE ALL</postback></button>
+            <button><text>Choose your own path</text><postback>CHOOSE ONE PATH</postback></button>
+            <button><text>Get reccomendations by preferences.</text><postback>PREFERENCES</postback></button>
+            <button><text>Quit</text><postback>QUIT</postback></button>
+    </template>
+</category>
+</aiml>

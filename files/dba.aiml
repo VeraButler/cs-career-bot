@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+    <pattern>DATABASE ADMINISTRATOR</pattern>
+    <template>
+        <u>DATABASE ADMINISTRATOR:</u>
+        
+        <br/><br/>
+        <b>Average Salary (US):</b> $93,750 per year
+        <b>Projected Growth (2018-2028):</b> 9% (Faster than average)<br/>
+        <br/>
+        
+        <b>Summary:</b>
+        The role may include capacity planning, installation, configuration, 
+        database design, migration, performance monitoring, security, 
+        troubleshooting, as well as backup and data recovery.(Wikipedia)
+        <br/><br/>
+        
+        <b>More Information:</b>
+        <link>
+        <text>Wiki</text>
+        <url>https://en.wikipedia.org/wiki/Database_administrator</url>
+        </link>
+        <link>
+        <text>US Bureau of Labor Statistics</text>
+        <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+        </link>      
+        <br/>
+        <srai>OPTIONS</srai>
+    </template>
+</category>
+</aiml>
